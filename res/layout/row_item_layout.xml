@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewRowReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewRowDeveloperName"
+        android:layout_below="@+id/textViewRowDeveloperName"
+        android:layout_marginTop="23dp"
+        android:text="TextView" 
+        android:maxLines="2"/>
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewRowDeveloperName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewRowDeveloperName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewRowTitle"
+        android:layout_alignTop="@+id/imageViewthumbnail"
+        android:layout_marginTop="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewRowTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/textViewPrice"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewthumbnail"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewRowTitle"
+        android:layout_marginLeft="56dp" />
+
+</RelativeLayout>
+
